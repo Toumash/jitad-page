@@ -5,7 +5,6 @@
 */
 
 (function($) {
-
 	skel.init({
 		reset: 'full',
 		breakpoints: {
@@ -77,7 +76,7 @@
 				$(':last-child').addClass('last-child');
 
 		// Dropdowns.
-			$('#nav > ul').dropotron({
+			$('#nav').find('ul').dropotron({
 				mode: 'fade',
 				noOpenerFade: true,
 				alignment: 'center',
@@ -85,5 +84,4 @@
 			});
 
 	});
-
 })(jQuery);

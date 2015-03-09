@@ -153,10 +153,9 @@
 
 			.feature-list h3
 			{
-				margin: 0 0 0.75em 0;
 				font-size: 1.15em;
 				letter-spacing: 0.05em;
-				margin-top: -0.35em;
+				margin: -0.35em 0 0.75em;
 			}
 
 				.feature-list h3:before
@@ -171,7 +170,7 @@
 		
 			.feature-list p
 			{
-				margin: 0 0 0 5em;
+				margin: 0 0 0 1em;
 			}
 			
 			.feature-list.small
@@ -389,11 +388,10 @@
 
 	.dropotron
 	{
-		background: #222835 url('images/overlay.png');
-		background-color: rgba(44,50,63,0.925);
+		background: rgba(44, 50, 63, 0.925) url('images/overlay.png');
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
-		box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
+		box-shadow: inset 0 0 1px 1px rgba(255,255,255,0.25);
 		min-width: 12em;
 		text-align: left;
 		margin-top: -1.25em;
