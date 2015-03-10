@@ -766,10 +766,10 @@ ol.default li {
     display: block;
 }
 
-
 table#responsive caption {
 
-    font-size: 2rem; color: #444;
+    font-size: 2rem;
+    color: #444;
 
     margin: 1rem;
 
@@ -785,9 +785,11 @@ table#responsive {
 
     border-collapse: collapse;
 
-    font-family: FontAwesome; font-weight: 100;
+    font-family: FontAwesome;
+    font-weight: 100;
 
-    background: #333; color: #fff;
+    background: #333;
+    color: #fff;
 
     text-rendering: optimizeLegibility;
 
@@ -795,20 +797,23 @@ table#responsive {
 
 }
 
-table#responsive thead th { font-weight: 600; }
+table#responsive thead th {
+    font-weight: 600;
+}
 
 table#responsive thead th, table#responsive tbody td {
-
-    padding: .8rem; font-size: 1.4rem;
 
 }
 
 table#responsive tbody td {
+    padding-top: .8rem;
+    color: #3b3b3b;
+    background: #eee;
+}
 
-    padding: .8rem; font-size: 1.4rem;
-
-    color: #808080; background: #eee;
-
+table#responsive tbody td:first-child{
+    text-align: center;
+    padding-right: .5rem;
 }
 
 table#responsive tbody tr:not(:last-child) {
@@ -818,24 +823,47 @@ table#responsive tbody tr:not(:last-child) {
     border-bottom: 1px solid #ddd;
 
 }
+
 @media screen and (max-width: 600px) {
 
-    table#responsive caption { background-image: none; }
+    table#responsive caption {
+        background-image: none;
+    }
 
-    table#responsive thead { display: none; }
+    table#responsive thead {
+        display: none;
+    }
 
-    table#responsive tbody td { display: block; padding: 0.9rem; }
+    table#responsive tbody td {
+        display: block;
+        padding: 2rem;
+        line-height: 100%;
+        text-align: center;
+    }
 
-    table#responsive tbody tr td:first-child { background: #909090; color: #fff; }
+    table#responsive tbody tr td:first-child {
+        background: #909090;
+        color: #fff;
+    }
 
     table#responsive tbody td:before {
 
-        content: attr(data-th); font-weight: bold;
+        content: attr(data-th);
+        font-weight: bold;
 
-        display: inline-block; 
+        display: inline-block;
 
-        width: 0rem;
+        width: 0;
 
+    }
+
+    table {
+        font-size: x-large;
+    }
+
+    .wrapper {
+        font-size: large;
+        line-height: 100%;
     }
 
 }
