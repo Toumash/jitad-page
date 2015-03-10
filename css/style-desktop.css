@@ -170,8 +170,10 @@
 		
 			.feature-list p
 			{
-				margin: 0 0 0 1em;
-			}
+				text-align: start;      
+				margin: 0 0 0 0;
+			
+}
 			
 			.feature-list.small
 			{
@@ -288,7 +290,7 @@
 
 		.homepage #header
 		{
-			padding: 18em 0;
+			padding: 20em 0;
 		}
 
 /*********************************************************************************/
@@ -299,12 +301,13 @@
 	{
 		position: absolute;
 		height: 5em;
-		top: 50%;
+		top: 24%;
 		left: 0;
 		width: 100%;
 		text-align: center;
 		margin-top: -0.5em;
-	}
+	
+}
 
 		.homepage #logo
 		{
@@ -333,7 +336,7 @@
 	{
 		position: absolute;
 		display: block;
-		top: 2.5em;
+		top: 2em;
 		left: 0;
 		width: 100%;
 		text-align: center;

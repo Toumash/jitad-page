@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
+    color: midnightblue;
     text-decoration: none;
 }
 
@@ -524,13 +524,12 @@ ol.default li {
 }
 
 .wrapper.style1 {
-    background: #e97770 url('images/overlay.png');
+    background: #27B5BA url('images/overlay.png');
     color: #eee;
-    color: rgba(255, 255, 255, 0.75);
 }
 
 .wrapper.style1 .title {
-    background: #e97770 url('images/overlay.png');
+    background: #34B6BB url('images/overlay.png');
     color: #fff;
 }
 
@@ -569,7 +568,7 @@ ol.default li {
 }
 
 #header-wrapper {
-    background: url('../images/banner.jpg') center center;
+    background: url('../images/banner.png') center center;
     background-size: cover;
 }
 
@@ -694,8 +693,7 @@ ol.default li {
 }
 
 #logo p {
-    color: #eee;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(13, 36, 39, 0.74);
     text-transform: uppercase;
 }
 
@@ -766,4 +764,55 @@ ol.default li {
 .profile {
     text-align: center;
     display: block;
+}
+table#responsive caption {
+
+    font-size: 2rem; color: #444;
+
+    margin: 1rem;
+
+    /*background-image: url(responsive.png), url(responsive2.png);*/
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+}
+
+table#responsive {
+
+    border-collapse: collapse;
+
+    font-family: FontAwesome; font-weight: 100;
+
+    background: #333; color: #fff;
+
+    text-rendering: optimizeLegibility;
+
+    border-radius: 5px;
+
+}
+
+table#responsive thead th { font-weight: 600; }
+
+table#responsive thead th, table#responsive tbody td {
+
+    padding: .8rem; font-size: 1.4rem;
+
+}
+
+table#responsive tbody td {
+
+    padding: .8rem; font-size: 1.4rem;
+
+    color: #444; background: #eee;
+
+}
+
+table#responsive tbody tr:not(:last-child) {
+
+    border-top: 1px solid #ddd;
+
+    border-bottom: 1px solid #ddd;
+
 }
