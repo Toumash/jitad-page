@@ -765,6 +765,8 @@ ol.default li {
     text-align: center;
     display: block;
 }
+
+
 table#responsive caption {
 
     font-size: 2rem; color: #444;
@@ -805,7 +807,7 @@ table#responsive tbody td {
 
     padding: .8rem; font-size: 1.4rem;
 
-    color: #444; background: #eee;
+    color: #808080; background: #eee;
 
 }
 
@@ -814,5 +816,26 @@ table#responsive tbody tr:not(:last-child) {
     border-top: 1px solid #ddd;
 
     border-bottom: 1px solid #ddd;
+
+}
+@media screen and (max-width: 600px) {
+
+    table#responsive caption { background-image: none; }
+
+    table#responsive thead { display: none; }
+
+    table#responsive tbody td { display: block; padding: 0.9rem; }
+
+    table#responsive tbody tr td:first-child { background: #909090; color: #fff; }
+
+    table#responsive tbody td:before {
+
+        content: attr(data-th); font-weight: bold;
+
+        display: inline-block; 
+
+        width: 0rem;
+
+    }
 
 }
