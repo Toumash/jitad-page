@@ -844,6 +844,7 @@ table#responsive tbody tr:not(:last-child) {
     table#responsive tbody tr td:first-child {
         background: #909090;
         color: #fff;
+        padding: 0.3em;
     }
 
     table#responsive tbody td:before {
