@@ -737,10 +737,6 @@ ol.default li {
     color: #e97770;
 }
 
-/*********************************************************************************/
-/* Copyright                                                                     */
-/*********************************************************************************/
-
 #copyright {
     text-align: center;
 }
@@ -767,34 +763,21 @@ ol.default li {
 }
 
 table#responsive caption {
-
     font-size: 2rem;
     color: #444;
-
     margin: 1rem;
-
-    /*background-image: url(responsive.png), url(responsive2.png);*/
-
     background-size: contain;
-
     background-repeat: no-repeat;
-
 }
 
 table#responsive {
-
     border-collapse: collapse;
-
     font-family: FontAwesome;
     font-weight: 100;
-
     background: #333;
     color: #fff;
-
     text-rendering: optimizeLegibility;
-
     border-radius: 5px;
-
 }
 
 table#responsive thead th {
@@ -802,7 +785,6 @@ table#responsive thead th {
 }
 
 table#responsive thead th, table#responsive tbody td {
-
 }
 
 table#responsive tbody td {
@@ -817,11 +799,8 @@ table#responsive tbody td:first-child{
 }
 
 table#responsive tbody tr:not(:last-child) {
-
     border-top: 1px solid #ddd;
-
     border-bottom: 1px solid #ddd;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -848,14 +827,10 @@ table#responsive tbody tr:not(:last-child) {
     }
 
     table#responsive tbody td:before {
-
         content: attr(data-th);
         font-weight: bold;
-
         display: inline-block;
-
         width: 0;
-
     }
 
     table {

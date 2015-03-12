@@ -1,104 +1,59 @@
-/*
-	Escape Velocity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+body {
+    min-width: 1000px;
+}
 
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
+body, input, select, textarea {
+    font-size: 12pt;
+    line-height: 1.5em;
+    letter-spacing: 0.015em;
+}
 
-	body
-	{
-		min-width: 1000px;
-	}
+body {
+    min-width: 960px;
+}
 
-	body, input, select, textarea
-	{
-		font-size: 12pt;
-		line-height: 1.5em;
-		letter-spacing: 0.015em;
-	}
+.wrapper {
+    padding: 4em 0 6em 0;
+}
 
-	body
-	{
-		min-width: 960px;
-	}
+#intro-wrapper {
+    padding-bottom: 7em;
+}
 
-/*********************************************************************************/
-/* Wrappers                                                                      */
-/*********************************************************************************/
+#footer-wrapper {
+}
 
-	.wrapper
-	{
-		padding: 4em 0 6em 0;
-	}
+#footer-wrapper hr {
+    margin: 3em 0 3em 0;
+}
 
-	#intro-wrapper
-	{
-		padding-bottom: 7em;
-	}
-	
-	#footer-wrapper
-	{
-	}
+#header {
+    padding: 10em 0;
+}
 
-		#footer-wrapper hr
-		{
-			margin: 3em 0 3em 0;
-		}
-	
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
+.homepage #header {
+    padding: 19em 0;
+}
 
-	#header
-	{
-		padding: 10em 0;
-	}
+#logo {
+    margin-top: -0.5em !important;
+}
 
-		.homepage #header
-		{
-			padding: 19em 0;
-		}
+#logo h1 {
+    font-size: 1.75em;
+}
 
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
+#intro {
+}
 
-	#logo
-	{
-		margin-top: -0.5em !important;
-	}
-	
-		#logo h1
-		{
-			font-size: 1.75em;
-		}
+#intro > .style1 {
+    font-size: 1.25em;
+}
 
-/*********************************************************************************/
-/* Intro                                                                         */
-/*********************************************************************************/
+#intro > .style2 {
+    font-size: 2.25em;
+}
 
-	#intro
-	{
-	}
-
-		#intro > .style1
-		{
-			font-size: 1.25em;
-		}
-	
-		#intro > .style2
-		{
-			font-size: 2.25em;
-		}
-	
-/*********************************************************************************/
-/* Copyright                                                                     */
-/*********************************************************************************/
-
-	#copyright
-	{
-		margin: 3em 0 0 0;
-	}
+#copyright {
+    margin: 3em 0 0 0;
+}
