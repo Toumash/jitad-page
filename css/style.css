@@ -844,4 +844,13 @@ table#responsive tbody tr:not(:last-child) {
     #front-logo {
         width:94%;
     }
+    #intro .style2{
+        margin:0 auto;
+    }
+}
+
+.partneritem {
+    width: 16.66666666666667%;
+    clear: none;
+    margin-left: 0;
 }
