@@ -724,14 +724,14 @@ ol.default li {
 /* Highlights                                                                    */
 /*********************************************************************************/
 
-#highlights {
+.highlights {
 }
 
-#highlights .highlight {
+.highlights .highlight {
     text-align: center;
 }
 
-#highlights .highlight h3 {
+.highlights .highlight h3 {
     color: #e97770;
 }
 
@@ -801,6 +801,9 @@ table#responsive tbody tr:not(:last-child) {
     border-bottom: 1px solid #ddd;
 }
 
+.custom-contact{
+    width:60%;
+}
 @media screen and (max-width: 600px) {
 
     table#responsive caption {
@@ -839,7 +842,12 @@ table#responsive tbody tr:not(:last-child) {
         font-size: large;
         line-height: 100%;
     }
+
+    .custom-contact{
+        width: 100%;
+    }
 }
+
 @media screen and (max-width:400px){
     #front-logo {
         width:94%;
@@ -850,6 +858,12 @@ table#responsive tbody tr:not(:last-child) {
 }
 
 .partneritem {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+}
+
+.sponsoritem {
     width: 25%;
     clear: none;
     margin-left: 0;
